@@ -1,0 +1,787 @@
+/* General ~~~~~~~~~~~~ */
+@font-face {
+    font-family: myFirstFont;
+    src: url('Museo300-Regular-webfont.woff');
+}
+
+@font-face {
+    font-family: Kopfont;
+    src: url('A_bit_sketchy.woff');
+}
+
+h1{
+	font-family: KopFont;
+}
+
+h2{
+	font-family: KopFont;
+}
+
+h3{
+	font-family: KopFont;
+}
+
+h4{
+	font-family: KopFont;
+}
+
+body{
+	color: #1C1C1C;
+	font-size:15px;
+	font-family: myFirstFont;
+}
+.center{
+	text-align:center;
+}
+
+button {
+    height: 100px;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+img {
+	overflow: hidden;
+}
+
+
+h2{
+	color: #1C1C1C;
+}
+
+a:hover {
+	color: #1C1C1C;
+	text-decoration: underline;
+}
+a{
+	color: #1C1C1C;
+	font-family: kopFont;
+}
+.footer
+{
+	padding-top:45px;
+	height: 90px;
+	text-align:center;
+	background-image:url("images/footerimg.png")
+} 
+
+.homeback{
+	background-image:url("images/cool_002.png");
+	height: 370px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
+
+
+.aboutback{
+	background-image:url("images/cool_002.png");
+	height: 370px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
+
+/* .blogback{
+	background-image:url("images/cool_002.png");
+	height: 420px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+} */
+
+.blogback{
+	background-image:url("images/cool_002.png");
+	height: 1600px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
+
+.decorate{
+	color: #1C1C1C;
+	text-align:center;
+}
+
+.namedec{
+	color: #f63132;
+}
+
+a:active,
+a:hover {
+  color:darkred;
+}
+
+
+/* header~~~~~~ */
+
+
+
+
+.name {
+	margin-left:auto;
+	margin-right:auto;
+    background-position:center;
+	width:310px;
+	padding-left:600px;
+	height:200px;
+	padding-top:100px;
+	font-size:30px;
+}
+
+.name2 {
+	margin-left:auto;
+	margin-right:auto;
+    background-position:center;
+	width:600px;
+	padding-left:600px;
+	height:200px;
+	
+	font-size:30px;
+}
+
+.login {
+	width:800px;
+	margin-left:200px;	
+	height:40px;
+
+}
+
+.logout {
+	width:65px;
+	margin-left:65px;	
+
+}
+
+.navbalk {
+	padding-left:1px;
+	height:75px;
+	width:940px;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.navbalk a{
+	font-size:30px;
+	text-decoration: none;
+}
+
+.nav{
+	float:left;
+	padding-top:30px;
+}
+
+.nav2{
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:40px;
+}
+
+a.current {
+  color:red;
+}
+
+.headerimg {
+	padding-top:-2px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	height: 554px;
+	
+	background-repeat: no-repeat;
+	background-position:center;
+}
+/* .headerimg2 {
+	padding-top:24px;
+	background-image: url("images/header112.png");
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	height: 186px;
+	background-repeat: no-repeat;
+	background-position:center;
+} */
+
+.header{
+	background-image:url("images/cool_001.png");
+	height: 630px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+/* .header2{
+	background-image:url("images/cool2.png");
+	height: 276px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+ */
+
+ .registerbtn{
+	font-size:10px;
+ }
+ 
+ 
+ .logo{
+	float:left;
+	position: absolute;
+	width:100px;
+	height:100px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* body~~~~~~~ */
+
+.h3{
+	padding-left:20px;
+	
+}
+
+
+.paginainhoud{
+	height:330px;
+	width:940px;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+    	margin-top: 20px;
+}
+
+.paginainhoud2{
+	width:940px;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.inhoud{
+	height:300px;
+	padding-left:10px;
+	height:290px;
+	float:left;
+	width:300px;
+}
+
+.inhoudtext{
+	
+	width: 250px;
+	height:290px;
+	float:left;
+	padding-left:5px;
+}
+
+
+.blog {
+	width:250px;
+	height:300px;
+	float:left;	
+}
+
+.gallery{
+	width: 350px;
+	height:400px;
+	
+	float:left;	
+}
+
+.galleryimg {
+	width:130px;
+	height:130px;
+	float:left;
+	margin-left:15px;
+	margin-bottom:10px;
+	padding:5px;
+}
+
+
+
+
+
+
+
+/* Register ~~~~~~ */
+
+.register {
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:200px;
+	height:200px;
+	text-align:center;
+}
+
+.galleryback2{
+	background-image:url("images/cool_002.png");
+	height: 750px;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
+
+.galleryback3{
+	background-image:url("images/cool_002.png");
+	height: 870px;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
+
+
+
+
+
+/*  images ~~~~~~~~~ */
+.galleryback{
+	background-image:url("images/cool_002.png");
+	height: 600px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
+
+.gallerys{
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:940px;
+	height:100%;
+	text-align:center;
+}
+
+
+
+
+.thumbnails img {
+	height: 80px;
+	width: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	
+	height:400px;
+}
+
+/* ABOUT ~~~~~~~~~~ */
+
+		
+.rubriekcontainer{
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.rubriek{ 
+  width:300px;
+  float:left;
+  margin-bottom:25px;
+}
+
+/*rubrics*/
+#rubrics_nav
+{
+  width:250px;
+  height:430px;
+  float:left;
+  margin-bottom:50px;
+}
+
+#rubrics_nav ul
+{
+  font-size:11px;
+  text-transform:uppercase;
+  color:#404040;
+  list-style:square;
+  display: block;
+  text-align: left;
+}
+
+#rubrics_nav ul li
+{
+  margin-bottom:10px;
+  display: block;
+}
+
+#rubrics_nav ul a:link, a:visited, a:active
+{
+  text-decoration: none;
+}
+
+#rubrics_nav ul a:hover
+{
+  text-decoration: underline;
+}
+
+#rubrics_content
+{
+  width: 550px;
+  height: auto;
+  min-height: 420px;
+  float:left;
+  margin-left:30px;
+  margin-bottom:50px;
+  padding-left:50px;
+  border-left:1px solid #eeeeee;
+}
+
+#rubrics p{
+  color: #a4a4a4;
+  width: 100%;
+  line-height:26px;
+  letter-spacing:0;
+  font-size:16px;
+  font-weight:300;
+  text-align:justify;
+}
+
+.rubricz{
+	padding-top:10px;
+}
+
+.aboutleft{
+	width: 450px;
+	height:400px;
+	float:left;
+}
+
+
+.aboutright{
+	width: 350px;
+	height:400px;
+	float:left;
+	padding-left:5px;
+	border-left: 2px solid;
+}
+
+.aboutimg{
+	padding-top:30px;
+	padding-left:5px;
+	
+	
+}
+
+
+
+
+/* CONTACT ~~~~~~~~~~~ */
+
+.contactleft{
+	width: 450px;
+	height:400px;
+	float:left;
+	padding-left:5px;
+}
+
+
+.contactright{
+	width: 350px;
+	height:400px;
+	float:left;
+	padding-left:30px;
+	border-left: 2px solid;
+}
+
+.social{
+	width:100px;
+	height:100px;
+	float:left;
+	padding-left:10px;
+}
+
+.form-style-4{
+    width: 450px;
+    font-size: 16px;
+	line-height:110%
+    padding: 30px 30px 15px 30px;
+
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+.form-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+	line-height:300%
+}
+.form-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email] 
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #1C1C1C;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+.form-style-4 textarea{
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #1C1C1C;
+    width: 275px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+.form-style-4 textarea:focus, 
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+    border-bottom: 1px solid #1C1C1C;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+	border: 1px solid #1C1C1C;
+	background: transparent;
+	color: #1C1C1C;
+	font-size:15px;
+	font-family: myFirstFont;
+
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+
+}
+
+
+
+/* BLOG ~~~~~~~~~~~ */
+
+.blogleft{
+	width: 800px;
+	height:400px;
+	float:left;
+	padding-left:5px;
+	padding-top:20px;
+}
+
+
+.blogright{
+	width: 100px;
+	height:400px;
+	float:left;
+	padding-left:5px;
+	border-left: 2px solid;
+	padding-top: 20px;
+}
+
+.bloginhoud{
+	height:400px;
+	width:940px;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.blogpost{
+	width:800px;
+	
+}
+.blogtext{
+	height:400px;
+	width:500px;
+	float:left;
+	border-top: 2px dotted;
+}
+
+.blogimg{
+	margin-top:10px;
+	width:200px;
+	float:left;
+}
+
+/* PROJECTS ~~~~~~~~~~~~~~``` */
+.boxgrid{ 
+	width: 300px; 
+	height: 260px; 
+	margin:2px; 
+	margin-top:30px;
+	float:left; 
+	background:white;
+	border: solid 2px #8399AF; 
+	overflow: hidden; 
+	position: relative; 
+}
+
+.boxcaption{ 
+	float: left; 
+	position: absolute; 
+	background: #FFF; 
+	height: 100px; 
+	width: 100%; 
+	opacity: .8; 
+	color: #1C1C1C;
+	font-size:15px;
+ }
+ 
+.captionfull .boxcaption {
+	top: 260;
+	left: 0;
+	padding:10px;
+ }
+ 
+ .caption .boxcaption {
+ 	top: 220;
+ 	left: 0;
+	padding:10px;
+}
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.projectback{
+	background-image:url("images/cool_002.png");
+	height: 1400px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
+
+.devback{
+	background-image:url("images/cool_002.png");
+	height: 1700px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
+
+.scoback{
+	background-image:url("images/cool_002.png");
+	height: 1450px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
+
+.bestanden{
+	margin: 20px;
+}
+
+ul li{
+	text-align: left;
+    padding: 10px 0;
+    background: url("images/line.png") center bottom no-repeat;
+    width: 100%;
+    float: left;
+    color: #1a1a1a;
+}
+
+ul {
+    margin: 0 0 30px;
+    padding: 0;
+    width: 100%;
+    float: left;
+    list-style-type: none;
+	padding-left:30px;
+}
+
+span{
+	font-family: KopFont;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+/* VAKINHOUD */
+
+.dedback{
+	background-image:url("images/cool_002.png");
+	height: 750px;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
+
+.left{
+	width: 550px;
+	height:700px;
+	float:left;
+	   padding-right: 10px;
+
+}
+
+
+.right{
+	width: 250px;
+	height:700px;
+	float:left;
+	padding-left:5px;
+	border-left: 2px solid;
+}
+
+.right2{
+	width: 250px;
+	height:400px;
+	float:left;
+	padding-left:5px;
+	border-left: 2px solid;
+}
+
+.ptmback{
+	background-image:url("images/cool_002.png");
+	height: 1150px;
+	width: 100%;
+	background-position:center;
+	background-repeat: repeat-y;
+}
